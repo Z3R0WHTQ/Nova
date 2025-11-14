@@ -23,4 +23,4 @@ export const deleteProduct = async (id) =>{
     await pool.query("DELETE FROM prodcutos WHERE id=$1", [id]);
     return {message:"Producto eliminado correctamente"};
 };
-
+//Segunda Subida debido a cambio de correo
