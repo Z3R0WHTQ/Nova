@@ -1,9 +1,9 @@
 import express from "express";
 import productRoute from "./routes/productRoutes.js"
 
-constapp=express();
+const app=express();
 
-appendFile.use(express.json());
-appendFile.use("/api/productos",productRoutes);
+app.use(express.json());
+app.use("/api/productos",productRoute);
 
 export default app;

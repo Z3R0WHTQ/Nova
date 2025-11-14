@@ -4,7 +4,7 @@ export const getAllProducts=async () => {
     return result.rows;
 };
 
-export const getProductByld = async (id) =>{
+export const getProductById = async (id) =>{
     const result = await pool.query("SELECT * FROM productos WHERE id = $1",[id]);
     return result.rows[0];
 };
